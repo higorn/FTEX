@@ -1,0 +1,34 @@
+\makeatletter
+\begin{folhadeaprovacao}
+\begin{center}
+    {\ABNTEXchapterfont\bfseries\normalsize\imprimirautor}
+    \vfill
+
+    \ABNTEXchapterfont\bfseries\large\imprimirtitulo
+\end{center}
+
+% \vspace*{\fill}
+\vfill
+
+\abntex@ifnotempty{\imprimirpreambulo}{%
+  \hspace{.35\textwidth}
+  \begin{minipage}{.5\textwidth}
+  \ABNTEXchapterfont\bfseries\normalsize\imprimirpreambulo
+  \end{minipage}%
+%   \vspace*{\fill}
+  \vfill
+}%
+\ABNTEXchapterfont\bfseries\normalsize{}Aprovado em:
+\vfill
+\begin{center}
+    \ABNTEXchapterfont\bfseries\normalsize{}BANCA EXAMINADORA \\
+    \assinatura{{\bfseries\normalsize{}Professor Orientador: }}
+    \assinatura{{\bfseries\normalsize{}Professor Avaliador: }}
+    \assinatura{{\bfseries\normalsize{}Professor Avaliador: }}
+    \vspace*{\fill}
+    {\bfseries\normalsize\imprimirlocal}
+    \par
+    {\bfseries\normalsize\imprimirdata}
+\end{center}
+\end{folhadeaprovacao}
+\makeatother
