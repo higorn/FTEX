@@ -311,3 +311,6 @@
   
    \begin{abstract}
   }{\end{abstract}\PRIVATEclearpageifneeded}
+    
+\counterwithout{equation}{chapter}
+\counterwithin*{equation}{part}
